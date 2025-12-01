@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 320px;
+  padding: 30px;
+  background-color: #111;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.89);
+  text-align: center;
+}
+
+#logo-img {
+  /* Tamaño más pequeño solicitado (forzado) */
+  width: 50px !important;
+  /* Mantener proporción de la imagen */
+  height: auto !important;
+  /* Centrar y separar del formulario */
+  display: block;
+  margin: 0 auto 12px;
+  /* Ajustar borde redondeado si deseas */
+  border-radius: 6px;
+  max-width: 100%;
+  /* Para recortar y mantener un área cuadrada, usar object-fit y fijar height */
+  /* object-fit: cover; height: 50px; */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form label {
+  text-align: left;
+  font-size: 14px;
+}
+
+.login-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #222;
+  border-radius: 1capx;
+  border: #aaaaaa 1px solid;
+  color: #fff;
+}
+
+.login-form input:focus {
+  outline: 2px solid #dddddd;
+}
+
+button {
+  padding: 10px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c40812;
+}
+
+.registro {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.registro a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+.registro a:hover {
+  text-decoration: underline;
+}
